@@ -1,5 +1,5 @@
 export const toggle = (x, lst) => (
-    lst.includes(x) ? lst.filter(y => y != x) : [x, ...lst]
+    lst.includes(x) ? lst.filter(y => y !== x) : [x, ...lst]
 );
 
 export const mapValues = (fn, obj) => (
